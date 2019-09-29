@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name PhenixRobotik)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/PhenixRobotik.lib)(options "")(descr ""))
+  (lib (name st-microelectronics)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/st-microelectronics.lib)(options "")(descr ""))
+  (lib (name Transistor_FET_Phenix)(type Legacy)(uri ${KIPRJMOD}/phenix_kicad/library/Transistor_FET_Phenix.lib)(options "")(descr ""))
+)

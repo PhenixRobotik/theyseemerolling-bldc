@@ -1,0 +1,377 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D9175F1
+P 4050 4100
+F 0 "Q?" H 4256 4146 50  0000 L CNN
+F 1 "NMOS-T252" H 4256 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4250 4025 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 4050 4100 50  0001 L CNN
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D917DE3
+P 4050 5000
+F 0 "Q?" H 4256 5046 50  0000 L CNN
+F 1 "NMOS-T252" H 4256 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4250 4925 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 4050 5000 50  0001 L CNN
+	1    4050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D91C915
+P 4500 4100
+F 0 "D?" V 4454 4179 50  0000 L CNN
+F 1 "D_ALT" V 4545 4179 50  0000 L CNN
+F 2 "" H 4500 4100 50  0001 C CNN
+F 3 "~" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D91CC6B
+P 4500 5000
+F 0 "D?" V 4454 5079 50  0000 L CNN
+F 1 "D_ALT" V 4545 5079 50  0000 L CNN
+F 2 "" H 4500 5000 50  0001 C CNN
+F 3 "~" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4300 4150 4550
+Wire Wire Line
+	4150 4550 4500 4550
+Wire Wire Line
+	4500 4550 4500 4850
+Connection ~ 4150 4550
+Wire Wire Line
+	4150 4550 4150 4800
+Wire Wire Line
+	4500 4550 4500 4250
+Connection ~ 4500 4550
+Wire Wire Line
+	4150 3900 4150 3700
+Wire Wire Line
+	4150 3700 4500 3700
+Wire Wire Line
+	4500 3700 4500 3950
+Wire Wire Line
+	4150 5200 4150 5400
+Wire Wire Line
+	4150 5400 4500 5400
+Wire Wire Line
+	4500 5400 4500 5150
+$Comp
+L Sensor_Current:ACS711xLCTR-12AB U?
+U 1 1 5D92284B
+P 3300 6350
+F 0 "U?" V 3254 5906 50  0000 R CNN
+F 1 "ACS711xLCTR-12AB" V 3345 5906 50  0000 R CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3650 6300 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx" H 3300 6350 50  0001 C CNN
+	1    3300 6350
+	0    -1   1    0   
+$EndComp
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D92C60F
+P 2800 4100
+F 0 "Q?" H 3006 4146 50  0000 L CNN
+F 1 "NMOS-T252" H 3006 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 3000 4025 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 2800 4100 50  0001 L CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D92C615
+P 2800 5000
+F 0 "Q?" H 3006 5046 50  0000 L CNN
+F 1 "NMOS-T252" H 3006 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 3000 4925 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 2800 5000 50  0001 L CNN
+	1    2800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D92C61B
+P 3250 4100
+F 0 "D?" V 3204 4179 50  0000 L CNN
+F 1 "D_ALT" V 3295 4179 50  0000 L CNN
+F 2 "" H 3250 4100 50  0001 C CNN
+F 3 "~" H 3250 4100 50  0001 C CNN
+	1    3250 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D92C621
+P 3250 5000
+F 0 "D?" V 3204 5079 50  0000 L CNN
+F 1 "D_ALT" V 3295 5079 50  0000 L CNN
+F 2 "" H 3250 5000 50  0001 C CNN
+F 3 "~" H 3250 5000 50  0001 C CNN
+	1    3250 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 4300 2900 4550
+Wire Wire Line
+	2900 4550 3250 4550
+Wire Wire Line
+	3250 4550 3250 4850
+Connection ~ 2900 4550
+Wire Wire Line
+	2900 4550 2900 4800
+Wire Wire Line
+	3250 4550 3250 4250
+Connection ~ 3250 4550
+Wire Wire Line
+	2900 3900 2900 3700
+Wire Wire Line
+	2900 3700 3250 3700
+Wire Wire Line
+	3250 3700 3250 3950
+Wire Wire Line
+	2900 5200 2900 5400
+Wire Wire Line
+	2900 5400 3250 5400
+Wire Wire Line
+	3250 5400 3250 5150
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D92DCB7
+P 1600 4100
+F 0 "Q?" H 1806 4146 50  0000 L CNN
+F 1 "NMOS-T252" H 1806 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1800 4025 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1600 4100 50  0001 L CNN
+	1    1600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PhenixRobotik:NMOS-T252 Q?
+U 1 1 5D92DCBD
+P 1600 5000
+F 0 "Q?" H 1806 5046 50  0000 L CNN
+F 1 "NMOS-T252" H 1806 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1800 4925 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1600 5000 50  0001 L CNN
+	1    1600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D92DCC3
+P 2050 4100
+F 0 "D?" V 2004 4179 50  0000 L CNN
+F 1 "D_ALT" V 2095 4179 50  0000 L CNN
+F 2 "" H 2050 4100 50  0001 C CNN
+F 3 "~" H 2050 4100 50  0001 C CNN
+	1    2050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5D92DCC9
+P 2050 5000
+F 0 "D?" V 2004 5079 50  0000 L CNN
+F 1 "D_ALT" V 2095 5079 50  0000 L CNN
+F 2 "" H 2050 5000 50  0001 C CNN
+F 3 "~" H 2050 5000 50  0001 C CNN
+	1    2050 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 4300 1700 4550
+Wire Wire Line
+	1700 4550 2050 4550
+Wire Wire Line
+	2050 4550 2050 4850
+Connection ~ 1700 4550
+Wire Wire Line
+	1700 4550 1700 4800
+Wire Wire Line
+	2050 4550 2050 4250
+Connection ~ 2050 4550
+Wire Wire Line
+	1700 3900 1700 3700
+Wire Wire Line
+	1700 3700 2050 3700
+Wire Wire Line
+	2050 3700 2050 3950
+Wire Wire Line
+	1700 5200 1700 5400
+Wire Wire Line
+	1700 5400 2050 5400
+Wire Wire Line
+	2050 5400 2050 5150
+Wire Wire Line
+	1700 5400 1700 5750
+Wire Wire Line
+	1700 5750 2900 5750
+Wire Wire Line
+	3100 5750 3100 5950
+Connection ~ 1700 5400
+Wire Wire Line
+	2900 5400 2900 5750
+Connection ~ 2900 5400
+Connection ~ 2900 5750
+Wire Wire Line
+	2900 5750 3100 5750
+Wire Wire Line
+	3100 5750 4150 5750
+Wire Wire Line
+	4150 5750 4150 5400
+Connection ~ 3100 5750
+Connection ~ 4150 5400
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D93F0B7
+P 5350 4650
+F 0 "J?" H 5430 4692 50  0000 L CNN
+F 1 "M1" H 5430 4601 50  0000 L CNN
+F 2 "" H 5350 4650 50  0001 C CNN
+F 3 "~" H 5350 4650 50  0001 C CNN
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4550 5150 4550
+Wire Wire Line
+	5150 4650 3700 4650
+Wire Wire Line
+	3700 4650 3700 4550
+Wire Wire Line
+	3700 4550 3250 4550
+Wire Wire Line
+	5150 4750 2450 4750
+Wire Wire Line
+	2450 4750 2450 4550
+Wire Wire Line
+	2450 4550 2050 4550
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5D945BE6
+P 5300 2650
+F 0 "J?" H 5380 2692 50  0000 L CNN
+F 1 "M1_hall" H 5380 2601 50  0000 L CNN
+F 2 "" H 5300 2650 50  0001 C CNN
+F 3 "~" H 5300 2650 50  0001 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 1 1 5D94B384
+P 1500 6450
+F 0 "U?" H 1500 6817 50  0000 C CNN
+F 1 "LM358" H 1500 6726 50  0000 C CNN
+F 2 "" H 1500 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1500 6450 50  0001 C CNN
+	1    1500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 2 1 5D94D91D
+P 7550 5950
+F 0 "U?" H 7550 6317 50  0000 C CNN
+F 1 "LM358" H 7550 6226 50  0000 C CNN
+F 2 "" H 7550 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7550 5950 50  0001 C CNN
+	2    7550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U?
+U 3 1 5D94F5FC
+P 5150 6550
+F 0 "U?" H 5108 6596 50  0000 L CNN
+F 1 "LM358" H 5108 6505 50  0000 L CNN
+F 2 "" H 5150 6550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5150 6550 50  0001 C CNN
+	3    5150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D953E22
+P 850 6550
+F 0 "RV?" H 781 6596 50  0000 R CNN
+F 1 "R_POT" H 781 6505 50  0000 R CNN
+F 2 "" H 850 6550 50  0001 C CNN
+F 3 "~" H 850 6550 50  0001 C CNN
+	1    850  6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3700 1700 3500
+Wire Wire Line
+	1700 3500 2900 3500
+Wire Wire Line
+	2900 3500 2900 3700
+Connection ~ 1700 3700
+Connection ~ 2900 3700
+Wire Wire Line
+	2900 3500 4150 3500
+Wire Wire Line
+	4150 3500 4150 3700
+Connection ~ 2900 3500
+Connection ~ 4150 3700
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D9AF3F0
+P 3650 2650
+F 0 "Q?" V 3993 2650 50  0000 C CNN
+F 1 "BSS138" V 3902 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3850 2575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3650 2650 50  0001 L CNN
+	1    3650 2650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D9BA563
+P 4100 2750
+F 0 "Q?" V 4443 2750 50  0000 C CNN
+F 1 "BSS138" V 4352 2750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 2675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4100 2750 50  0001 L CNN
+	1    4100 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5D9BC0B2
+P 4550 2850
+F 0 "Q?" V 4893 2850 50  0000 C CNN
+F 1 "BSS138" V 4802 2850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 2775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4550 2850 50  0001 L CNN
+	1    4550 2850
+	0    1    -1   0   
+$EndComp
+$EndSCHEMATC
