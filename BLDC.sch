@@ -1666,4 +1666,28 @@ Text Notes 1500 1400 0    50   ~ 0
 Mosfet control
 Text Notes 2250 1050 0    197  ~ 0
 TODO: add FOC if not already too big
+$Comp
+L Device:CP C?
+U 1 1 5E4C903D
+P 12850 3250
+F 0 "C?" H 12968 3296 50  0000 L CNN
+F 1 "CP" H 12968 3205 50  0000 L CNN
+F 2 "" H 12888 3100 50  0001 C CNN
+F 3 "~" H 12850 3250 50  0001 C CNN
+	1    12850 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 12850 3100 1    50   Input ~ 0
+Vcc_1
+$Comp
+L power:GND #PWR?
+U 1 1 5E4D013C
+P 12850 3400
+F 0 "#PWR?" H 12850 3150 50  0001 C CNN
+F 1 "GND" H 12855 3227 50  0000 C CNN
+F 2 "" H 12850 3400 50  0001 C CNN
+F 3 "" H 12850 3400 50  0001 C CNN
+	1    12850 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
