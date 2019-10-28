@@ -532,4 +532,156 @@ Text Notes 4150 2000 0    50   ~ 0
 Sense Power 1
 Text Notes 4250 4150 0    50   ~ 0
 Sense Power 2
+$Comp
+L Regulator_Linear:LM317L_SO8 U?
+U 1 1 5DB79FBF
+P 8800 1900
+F 0 "U?" H 8800 2142 50  0000 C CNN
+F 1 "LM317L_SO8" H 8800 2051 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8800 2100 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf" H 8800 1700 50  0001 C CNN
+	1    8800 1900
+	1    0    0    -1  
+$EndComp
+Text HLabel 8200 1900 0    50   Input ~ 0
+Power_1
+$Comp
+L Device:C C?
+U 1 1 5DB7E0BC
+P 8350 2050
+F 0 "C?" H 8465 2096 50  0000 L CNN
+F 1 "100n" H 8465 2005 50  0000 L CNN
+F 2 "" H 8388 1900 50  0001 C CNN
+F 3 "~" H 8350 2050 50  0001 C CNN
+	1    8350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1900 8350 1900
+Connection ~ 8350 1900
+Wire Wire Line
+	8350 1900 8500 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5DB80195
+P 8350 2200
+F 0 "#PWR?" H 8350 1950 50  0001 C CNN
+F 1 "GND" H 8355 2027 50  0000 C CNN
+F 2 "" H 8350 2200 50  0001 C CNN
+F 3 "" H 8350 2200 50  0001 C CNN
+	1    8350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB80A71
+P 8800 2700
+F 0 "#PWR?" H 8800 2450 50  0001 C CNN
+F 1 "GND" H 8805 2527 50  0000 C CNN
+F 2 "" H 8800 2700 50  0001 C CNN
+F 3 "" H 8800 2700 50  0001 C CNN
+	1    8800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB83F4B
+P 8800 2450
+F 0 "R?" H 8870 2496 50  0000 L CNN
+F 1 "3.3k" H 8870 2405 50  0000 L CNN
+F 2 "" V 8730 2450 50  0001 C CNN
+F 3 "~" H 8800 2450 50  0001 C CNN
+	1    8800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB84524
+P 9100 2250
+F 0 "R?" V 8893 2250 50  0000 C CNN
+F 1 "370" V 8984 2250 50  0000 C CNN
+F 2 "" V 9030 2250 50  0001 C CNN
+F 3 "~" H 9100 2250 50  0001 C CNN
+	1    9100 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 5DB87BCA
+P 9850 1900
+F 0 "JP?" V 9896 2002 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 9805 2002 50  0000 L CNN
+F 2 "" H 9850 1900 50  0001 C CNN
+F 3 "~" H 9850 1900 50  0001 C CNN
+	1    9850 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DB88C4B
+P 9850 1450
+F 0 "J?" V 9814 1362 50  0000 R CNN
+F 1 "Vg" V 9723 1362 50  0000 R CNN
+F 2 "" H 9850 1450 50  0001 C CNN
+F 3 "~" H 9850 1450 50  0001 C CNN
+	1    9850 1450
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9950 1900 2    50   Input ~ 0
+mosfet_gate_voltage
+Wire Wire Line
+	9850 2150 9550 2150
+Wire Wire Line
+	9250 2150 9250 2250
+Wire Wire Line
+	9250 2150 9250 1900
+Wire Wire Line
+	9250 1900 9100 1900
+Connection ~ 9250 2150
+Wire Wire Line
+	8800 2300 8800 2250
+Wire Wire Line
+	8800 2250 8950 2250
+Connection ~ 8800 2250
+Wire Wire Line
+	8800 2250 8800 2200
+Wire Wire Line
+	8800 2700 8800 2600
+$Comp
+L Device:C C?
+U 1 1 5DB8D42E
+P 9550 2300
+F 0 "C?" H 9665 2346 50  0000 L CNN
+F 1 "100n" H 9665 2255 50  0000 L CNN
+F 2 "" H 9588 2150 50  0001 C CNN
+F 3 "~" H 9550 2300 50  0001 C CNN
+	1    9550 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9550 2150
+Wire Wire Line
+	9550 2150 9250 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5DB8D902
+P 9550 2450
+F 0 "#PWR?" H 9550 2200 50  0001 C CNN
+F 1 "GND" H 9555 2277 50  0000 C CNN
+F 2 "" H 9550 2450 50  0001 C CNN
+F 3 "" H 9550 2450 50  0001 C CNN
+	1    9550 2450
+	1    0    0    -1  
+$EndComp
+Text Notes 9000 2750 0    50   ~ 0
+set for 12.4V
+Wire Notes Line
+	7600 3000 10850 3000
+Wire Notes Line
+	10850 3000 10850 1250
+Wire Notes Line
+	10850 1250 7600 1250
+Wire Notes Line
+	7600 1250 7600 3000
+Text Notes 7600 1350 0    50   ~ 0
+Mosfet gate voltage
 $EndSCHEMATC

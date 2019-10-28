@@ -764,17 +764,6 @@ Connection ~ 4600 2500
 Wire Wire Line
 	4900 2350 4450 2350
 $Comp
-L power:+3.3V #PWR?
-U 1 1 5DF233A2
-P 4050 1550
-F 0 "#PWR?" H 4050 1400 50  0001 C CNN
-F 1 "+3.3V" H 4065 1723 50  0000 C CNN
-F 2 "" H 4050 1550 50  0001 C CNN
-F 3 "" H 4050 1550 50  0001 C CNN
-	1    4050 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5DF23C8D
 P 4400 1700
@@ -800,9 +789,6 @@ Wire Wire Line
 	4250 1700 4050 1700
 Wire Wire Line
 	4050 1700 4050 1800
-Wire Wire Line
-	4050 1700 4050 1550
-Connection ~ 4050 1700
 Text Label 4900 3600 0    50   ~ 0
 HVG_2
 Text Label 4900 3750 0    50   ~ 0
@@ -825,17 +811,6 @@ Text Label 4900 5550 0    50   ~ 0
 LVG_3
 Wire Wire Line
 	4900 5550 4450 5550
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DF73173
-P 3800 3200
-F 0 "#PWR?" H 3800 3050 50  0001 C CNN
-F 1 "+3.3V" V 3815 3328 50  0000 L CNN
-F 2 "" H 3800 3200 50  0001 C CNN
-F 3 "" H 3800 3200 50  0001 C CNN
-	1    3800 3200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5DF77AF4
@@ -863,17 +838,6 @@ Wire Wire Line
 Connection ~ 4050 3200
 Wire Wire Line
 	4050 3200 4250 3200
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DF86E31
-P 3800 4550
-F 0 "#PWR?" H 3800 4400 50  0001 C CNN
-F 1 "+3.3V" V 3815 4678 50  0000 L CNN
-F 2 "" H 3800 4550 50  0001 C CNN
-F 3 "" H 3800 4550 50  0001 C CNN
-	1    3800 4550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5DF87378
@@ -1418,10 +1382,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 5200 50  000
 	1    2450 5200
 	1    0    0    -1  
 $EndComp
-Text Label 2250 5200 2    50   ~ 0
-over_current
-Text Label 3100 5450 3    50   ~ 0
-over_current
 $Comp
 L power:GND #PWR?
 U 1 1 5E35CC99
@@ -1488,10 +1448,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 3800 50  000
 	1    2450 3800
 	1    0    0    -1  
 $EndComp
-Text Label 2250 3800 2    50   ~ 0
-over_current
-Text Label 3100 4050 3    50   ~ 0
-over_current
 $Comp
 L power:GND #PWR?
 U 1 1 5E36C23C
@@ -1558,10 +1514,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2450 2400 50  000
 	1    2450 2400
 	1    0    0    -1  
 $EndComp
-Text Label 2250 2400 2    50   ~ 0
-over_current
-Text Label 3100 2650 3    50   ~ 0
-over_current
 $Comp
 L power:GND #PWR?
 U 1 1 5E37603F
@@ -1654,15 +1606,7 @@ Text HLabel 2950 5250 3    50   Input ~ 0
 M1_LVG3
 Wire Wire Line
 	2950 5250 3050 5250
-Wire Notes Line
-	1450 1300 6200 1300
-Wire Notes Line
-	6200 1300 6200 6200
-Wire Notes Line
-	6200 6200 1450 6200
-Wire Notes Line
-	1450 6200 1450 1300
-Text Notes 1500 1400 0    50   ~ 0
+Text Notes 1450 1200 0    50   ~ 0
 Mosfet control
 Text Notes 2250 1050 0    197  ~ 0
 TODO: add FOC if not already too big
@@ -1690,4 +1634,141 @@ F 3 "" H 12850 3400 50  0001 C CNN
 	1    12850 3400
 	1    0    0    -1  
 $EndComp
+Text GLabel 3800 4550 0    50   Input ~ 0
+Vmos
+Text GLabel 3800 3200 0    50   Input ~ 0
+Vmos
+Text GLabel 3800 1700 0    50   Input ~ 0
+Vmos
+Wire Wire Line
+	4050 1700 3800 1700
+Connection ~ 4050 1700
+$Comp
+L PhenixRobotik:SN74AHC1G08 U?
+U 1 1 5DBE3F20
+P 2300 1650
+F 0 "U?" H 2325 2025 50  0000 C CNN
+F 1 "SN74AHC1G08" H 2325 1934 50  0000 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+Text Label 1950 1500 2    50   ~ 0
+over_current
+Wire Notes Line
+	1050 1100 1050 6200
+Wire Notes Line
+	6200 1100 6200 6200
+Text HLabel 1400 1650 0    50   Input ~ 0
+M1_EN
+$Comp
+L power:GND #PWR?
+U 1 1 5DC0BDEF
+P 1950 1800
+F 0 "#PWR?" H 1950 1550 50  0001 C CNN
+F 1 "GND" H 1955 1627 50  0000 C CNN
+F 2 "" H 1950 1800 50  0001 C CNN
+F 3 "" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	0    1    1    0   
+$EndComp
+Text Label 3150 1800 0    50   ~ 0
+EN
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DC107FC
+P 3100 1500
+F 0 "#PWR?" H 3100 1350 50  0001 C CNN
+F 1 "+3.3V" V 3115 1628 50  0000 L CNN
+F 2 "" H 3100 1500 50  0001 C CNN
+F 3 "" H 3100 1500 50  0001 C CNN
+	1    3100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DC11609
+P 2900 1350
+F 0 "C?" V 2648 1350 50  0000 C CNN
+F 1 "100n" V 2739 1350 50  0000 C CNN
+F 2 "" H 2938 1200 50  0001 C CNN
+F 3 "~" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC11D21
+P 2900 1200
+F 0 "#PWR?" H 2900 950 50  0001 C CNN
+F 1 "GND" H 2905 1027 50  0000 C CNN
+F 2 "" H 2900 1200 50  0001 C CNN
+F 3 "" H 2900 1200 50  0001 C CNN
+	1    2900 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1500 2900 1500
+Text Label 2250 2400 2    50   ~ 0
+EN
+Text Label 3100 2650 2    50   ~ 0
+EN
+Text Label 3100 4050 2    50   ~ 0
+EN
+Text Label 2250 3800 2    50   ~ 0
+EN
+Text Label 2250 5200 2    50   ~ 0
+EN
+Text Label 3100 5450 2    50   ~ 0
+EN
+Connection ~ 2900 1500
+Wire Wire Line
+	2900 1500 3100 1500
+$Comp
+L Device:R R?
+U 1 1 5DC4BB2B
+P 2950 1800
+F 0 "R?" V 2743 1800 50  0000 C CNN
+F 1 "10" V 2834 1800 50  0000 C CNN
+F 2 "" V 2880 1800 50  0001 C CNN
+F 3 "~" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1800 2800 1800
+Wire Wire Line
+	3100 1800 3150 1800
+$Comp
+L Device:R R?
+U 1 1 5DC6DF98
+P 1450 1800
+F 0 "R?" H 1380 1754 50  0000 R CNN
+F 1 "1k" H 1380 1845 50  0000 R CNN
+F 2 "" V 1380 1800 50  0001 C CNN
+F 3 "~" H 1450 1800 50  0001 C CNN
+	1    1450 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC70A60
+P 1450 1950
+F 0 "#PWR?" H 1450 1700 50  0001 C CNN
+F 1 "GND" H 1455 1777 50  0000 C CNN
+F 2 "" H 1450 1950 50  0001 C CNN
+F 3 "" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1650 1450 1650
+Connection ~ 1450 1650
+Wire Wire Line
+	1450 1650 1950 1650
+Wire Notes Line
+	1050 1100 6200 1100
+Wire Notes Line
+	1050 6200 6200 6200
 $EndSCHEMATC
