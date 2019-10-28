@@ -168,10 +168,10 @@ F 3 "" H 3850 8800 50  0001 C CNN
 	1    3850 8800
 	1    0    0    -1  
 $EndComp
-Text HLabel 6100 9500 1    50   Input ~ 0
-I1
+Text HLabel 5950 9500 1    50   Input ~ 0
+Current
 Text HLabel 4250 9500 2    50   Input ~ 0
-I1_fault
+Current_fault
 $Comp
 L power:+3.3V #PWR065
 U 1 1 5DDD4074
@@ -598,11 +598,11 @@ Wire Wire Line
 	2850 2100 2600 2100
 Connection ~ 2850 2100
 Text HLabel 2600 2100 0    50   Input ~ 0
-M1_H1
+H1
 Text HLabel 2600 2200 0    50   Input ~ 0
-M1_H2
+H2
 Text HLabel 2600 2300 0    50   Input ~ 0
-M1_H3
+H3
 Text Notes 2050 1600 0    50   ~ 0
 Hall sensors
 Wire Wire Line
@@ -711,7 +711,7 @@ F 3 "" H 4500 10800 50  0001 C CNN
 	1    4500 10800
 	1    0    0    -1  
 $EndComp
-Text Notes 5750 9350 0    50   ~ 0
+Text Notes 5600 9100 0    50   ~ 0
 For current wave form filtering
 Text Notes 2100 8800 0    50   ~ 0
 Current sensing and limitation
@@ -733,13 +733,13 @@ Wire Wire Line
 Wire Wire Line
 	9350 9400 9350 9600
 Text HLabel 3500 6650 0    50   Input ~ 0
-M1_HVG2
+HVG2
 Text HLabel 3500 7400 0    50   Input ~ 0
-M1_HVG3
+HVG3
 Text HLabel 3500 6750 0    50   Input ~ 0
-M1_LVG2
+LVG2
 Text HLabel 3500 7500 0    50   Input ~ 0
-M1_LVG3
+LVG3
 Text Notes 2050 4200 0    83   ~ 0
 Mosfet control and bridge
 Text Notes 9400 5900 0    197  ~ 0
@@ -782,7 +782,7 @@ $EndComp
 Text Label 3750 4600 2    50   ~ 0
 over_current
 Text HLabel 3200 4750 0    50   Input ~ 0
-M1_EN
+EN
 $Comp
 L power:GND #PWR051
 U 1 1 5DC0BDEF
@@ -881,7 +881,7 @@ Wire Wire Line
 $Sheet
 S 3500 5750 1000 500 
 U 5DBB7CAA
-F0 "motor_1_phase_1" 50
+F0 "phase_1" 50
 F1 "bldc_phase.sch" 50
 F2 "LVG" I L 3500 6000 50 
 F3 "HVG" I L 3500 5900 50 
@@ -893,7 +893,7 @@ $EndSheet
 $Sheet
 S 3500 6500 1000 500 
 U 5DC2983A
-F0 "motor_1_phase_2" 50
+F0 "phase_2" 50
 F1 "bldc_phase.sch" 50
 F2 "LVG" I L 3500 6750 50 
 F3 "HVG" I L 3500 6650 50 
@@ -905,7 +905,7 @@ $EndSheet
 $Sheet
 S 3500 7250 1000 500 
 U 5DC32C9F
-F0 "motor_1_phase_3" 50
+F0 "phase_3" 50
 F1 "bldc_phase.sch" 50
 F2 "LVG" I L 3500 7500 50 
 F3 "HVG" I L 3500 7400 50 
@@ -1034,7 +1034,7 @@ Wire Notes Line
 Wire Notes Line
 	2000 1500 2000 3000
 Text HLabel 3500 6000 0    50   Input ~ 0
-M1_LVG1
+LVG1
 Text HLabel 3500 5900 0    50   Input ~ 0
-M1_HVG1
+HVG1
 $EndSCHEMATC
