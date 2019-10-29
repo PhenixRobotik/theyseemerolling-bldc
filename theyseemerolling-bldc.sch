@@ -82,10 +82,10 @@ F6 "+5V" I R 2000 4300 50
 F7 "+3.3V" I R 2000 4400 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 5DB5BECF
 P 1200 6400
-F 0 "H?" V 1154 6550 50  0000 L CNN
+F 0 "H1" V 1154 6550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1245 6550 50  0000 L CNN
 F 2 "" H 1200 6400 50  0001 C CNN
 F 3 "~" H 1200 6400 50  0001 C CNN
@@ -93,10 +93,10 @@ F 3 "~" H 1200 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5DB5C183
 P 1200 6600
-F 0 "H?" V 1154 6750 50  0000 L CNN
+F 0 "H2" V 1154 6750 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1245 6750 50  0000 L CNN
 F 2 "" H 1200 6600 50  0001 C CNN
 F 3 "~" H 1200 6600 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "~" H 1200 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 5DB5C32E
 P 1200 6800
-F 0 "H?" V 1154 6950 50  0000 L CNN
+F 0 "H3" V 1154 6950 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1245 6950 50  0000 L CNN
 F 2 "" H 1200 6800 50  0001 C CNN
 F 3 "~" H 1200 6800 50  0001 C CNN
@@ -115,10 +115,10 @@ F 3 "~" H 1200 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 5DB5C4EC
 P 1200 7000
-F 0 "H?" V 1154 7150 50  0000 L CNN
+F 0 "H4" V 1154 7150 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1245 7150 50  0000 L CNN
 F 2 "" H 1200 7000 50  0001 C CNN
 F 3 "~" H 1200 7000 50  0001 C CNN
@@ -126,10 +126,10 @@ F 3 "~" H 1200 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5DB5C8A7
 P 850 7250
-F 0 "#PWR?" H 850 7000 50  0001 C CNN
+F 0 "#PWR01" H 850 7000 50  0001 C CNN
 F 1 "GND" H 855 7077 50  0000 C CNN
 F 2 "" H 850 7250 50  0001 C CNN
 F 3 "" H 850 7250 50  0001 C CNN
@@ -156,10 +156,10 @@ Connection ~ 850  7000
 Wire Wire Line
 	850  7000 850  6800
 $Comp
-L PhenixRobotik:Conn_Debug J?
+L PhenixRobotik:Conn_Debug J1
 U 1 1 5DC47244
 P 3000 1450
-F 0 "J?" H 3230 1347 50  0000 L CNN
+F 0 "J1" H 3230 1347 50  0000 L CNN
 F 1 "Conn_Debug" H 3230 1438 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3400 150 50  0001 C CNN
 F 3 "~" H 5200 1250 50  0001 C CNN
@@ -167,10 +167,10 @@ F 3 "~" H 5200 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR03
 U 1 1 5DC8AE37
 P 2200 4400
-F 0 "#PWR?" H 2200 4250 50  0001 C CNN
+F 0 "#PWR03" H 2200 4250 50  0001 C CNN
 F 1 "+3.3V" V 2215 4528 50  0000 L CNN
 F 2 "" H 2200 4400 50  0001 C CNN
 F 3 "" H 2200 4400 50  0001 C CNN
@@ -178,10 +178,10 @@ F 3 "" H 2200 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR02
 U 1 1 5DC8B558
 P 2200 4300
-F 0 "#PWR?" H 2200 4150 50  0001 C CNN
+F 0 "#PWR02" H 2200 4150 50  0001 C CNN
 F 1 "+5V" V 2215 4428 50  0000 L CNN
 F 2 "" H 2200 4300 50  0001 C CNN
 F 3 "" H 2200 4300 50  0001 C CNN
@@ -318,10 +318,10 @@ Wire Wire Line
 Wire Wire Line
 	6750 6100 7200 6100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5DBBCA1A
 P 3000 850
-F 0 "#PWR?" H 3000 600 50  0001 C CNN
+F 0 "#PWR04" H 3000 600 50  0001 C CNN
 F 1 "GND" H 3005 677 50  0000 C CNN
 F 2 "" H 3000 850 50  0001 C CNN
 F 3 "" H 3000 850 50  0001 C CNN
