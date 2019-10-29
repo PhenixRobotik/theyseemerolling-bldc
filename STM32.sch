@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -235,8 +235,6 @@ F 3 "" H 1150 2300 50  0001 C CNN
 	1    1150 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 2200 1650 2200
 Connection ~ 1850 2200
 Wire Wire Line
 	1850 2200 2150 2200
@@ -969,8 +967,6 @@ F 3 "" H 3650 5400 50  0001 C CNN
 $EndComp
 Text Notes 3800 5800 2    50   ~ 0
 ASMB-KTF0-0A306\nR 2.00V | 15mA | 86Ω\nG 2.95V | 15mA | 24Ω\nB 2.85V | 10mA | 35Ω
-Wire Wire Line
-	1750 2200 1850 2200
 Connection ~ 3150 2200
 Wire Wire Line
 	3150 2200 2950 2200
@@ -994,4 +990,6 @@ F 3 "~" H 4200 2400 50  0001 C CNN
 	1    4200 2400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1600 2200 1850 2200
 $EndSCHEMATC
