@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -31,7 +31,7 @@ AR Path="/5DBA65A2/5DC2983A/5DBC4D61" Ref="C67"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBC4D61" Ref="C69"  Part="1" 
 F 0 "C69" V 5198 2400 50  0000 C CNN
 F 1 "100n" V 5289 2400 50  0000 C CNN
-F 2 "" H 5488 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5488 2250 50  0001 C CNN
 F 3 "~" H 5450 2400 50  0001 C CNN
 	1    5450 2400
 	0    1    1    0   
@@ -67,7 +67,7 @@ AR Path="/5DBA65A2/5DC2983A/5DBC4D70" Ref="TP9"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBC4D70" Ref="TP10"  Part="1" 
 F 0 "TP10" H 7650 3350 50  0000 L CNN
 F 1 "Test_OUT" H 7650 3250 50  0000 L CNN
-F 2 "" H 7700 3200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 7700 3200 50  0001 C CNN
 F 3 "~" H 7700 3200 50  0001 C CNN
 	1    7500 3200
 	1    0    0    -1  
@@ -98,7 +98,7 @@ AR Path="/5DBA65A2/5DC2983A/5DBC4D53" Ref="C68"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBC4D53" Ref="C70"  Part="1" 
 F 0 "C70" H 5550 3150 50  0000 L CNN
 F 1 "C" H 5550 2950 50  0000 L CNN
-F 2 "" H 5588 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5588 2900 50  0001 C CNN
 F 3 "~" H 5550 3050 50  0001 C CNN
 	1    5550 3050
 	1    0    0    -1  
@@ -117,7 +117,7 @@ AR Path="/5DBA65A2/5DC32C9F/5DBC4D77" Ref="Q36"  Part="1"
 F 0 "Q36" H 4150 3700 50  0000 L CNN
 F 1 "BSS138" H 4100 3450 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 3525 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4300 3600 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 3600 50  0001 L CNN
 	1    4300 3600
 	1    0    0    -1  
 $EndComp
@@ -152,7 +152,7 @@ AR Path="/5DBA65A2/5DC2983A/5DBC4D95" Ref="R68"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBC4D95" Ref="R70"  Part="1" 
 F 0 "R70" V 4050 3400 50  0000 C CNN
 F 1 "10k" V 4150 3400 50  0000 C CNN
-F 2 "" V 4080 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 3400 50  0001 C CNN
 F 3 "~" H 4150 3400 50  0001 C CNN
 	1    4150 3400
 	0    1    1    0   
@@ -177,8 +177,8 @@ AR Path="/5DBA65A2/5DC2983A/5DBC4D47" Ref="U20"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBC4D47" Ref="U21"  Part="1" 
 F 0 "U21" H 5000 3000 50  0000 C CNN
 F 1 "L6388E" H 5000 3100 50  0000 C CNN
-F 2 "" H 5000 3100 50  0001 C CNN
-F 3 "" H 5000 3100 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5000 3100 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/l6388e.pdf" H 5000 3100 50  0001 C CNN
 	1    5000 3100
 	1    0    0    -1  
 $EndComp
@@ -216,7 +216,7 @@ AR Path="/5DBA65A2/5DC32C9F/5DBD08AD" Ref="Q35"  Part="1"
 F 0 "Q35" H 4150 3000 50  0000 L CNN
 F 1 "BSS138" H 4100 2750 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 2825 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4300 2900 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 2900 50  0001 L CNN
 	1    4300 2900
 	1    0    0    -1  
 $EndComp
@@ -251,7 +251,7 @@ AR Path="/5DBA65A2/5DC2983A/5DBD08C1" Ref="R67"  Part="1"
 AR Path="/5DBA65A2/5DC32C9F/5DBD08C1" Ref="R69"  Part="1" 
 F 0 "R69" V 4050 2700 50  0000 C CNN
 F 1 "10k" V 4150 2700 50  0000 C CNN
-F 2 "" V 4080 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 2700 50  0001 C CNN
 F 3 "~" H 4150 2700 50  0001 C CNN
 	1    4150 2700
 	0    1    1    0   

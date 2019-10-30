@@ -82,80 +82,6 @@ F6 "+5V" I R 2000 4300 50
 F7 "+3.3V" I R 2000 4400 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5DB5BECF
-P 1200 6400
-F 0 "H1" V 1154 6550 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1245 6550 50  0000 L CNN
-F 2 "" H 1200 6400 50  0001 C CNN
-F 3 "~" H 1200 6400 50  0001 C CNN
-	1    1200 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5DB5C183
-P 1200 6600
-F 0 "H2" V 1154 6750 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1245 6750 50  0000 L CNN
-F 2 "" H 1200 6600 50  0001 C CNN
-F 3 "~" H 1200 6600 50  0001 C CNN
-	1    1200 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5DB5C32E
-P 1200 6800
-F 0 "H3" V 1154 6950 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1245 6950 50  0000 L CNN
-F 2 "" H 1200 6800 50  0001 C CNN
-F 3 "~" H 1200 6800 50  0001 C CNN
-	1    1200 6800
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5DB5C4EC
-P 1200 7000
-F 0 "H4" V 1154 7150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1245 7150 50  0000 L CNN
-F 2 "" H 1200 7000 50  0001 C CNN
-F 3 "~" H 1200 7000 50  0001 C CNN
-	1    1200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5DB5C8A7
-P 850 7250
-F 0 "#PWR01" H 850 7000 50  0001 C CNN
-F 1 "GND" H 855 7077 50  0000 C CNN
-F 2 "" H 850 7250 50  0001 C CNN
-F 3 "" H 850 7250 50  0001 C CNN
-	1    850  7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  7250 850  7000
-Wire Wire Line
-	850  6400 1100 6400
-Wire Wire Line
-	1100 6600 850  6600
-Connection ~ 850  6600
-Wire Wire Line
-	850  6600 850  6400
-Wire Wire Line
-	1100 6800 850  6800
-Connection ~ 850  6800
-Wire Wire Line
-	850  6800 850  6600
-Wire Wire Line
-	1100 7000 850  7000
-Connection ~ 850  7000
-Wire Wire Line
-	850  7000 850  6800
-$Comp
 L PhenixRobotik:Conn_Debug J1
 U 1 1 5DC47244
 P 3000 1450
@@ -356,4 +282,78 @@ Text GLabel 8300 4950 2    50   Input ~ 0
 Vcc_2
 Wire Wire Line
 	8300 4950 8200 4950
+Wire Wire Line
+	850  7000 850  6800
+Connection ~ 850  7000
+Wire Wire Line
+	1100 7000 850  7000
+Wire Wire Line
+	850  6800 850  6600
+Connection ~ 850  6800
+Wire Wire Line
+	1100 6800 850  6800
+Wire Wire Line
+	850  6600 850  6400
+Connection ~ 850  6600
+Wire Wire Line
+	1100 6600 850  6600
+Wire Wire Line
+	850  6400 1100 6400
+Wire Wire Line
+	850  7250 850  7000
+$Comp
+L power:GND #PWR01
+U 1 1 5DB5C8A7
+P 850 7250
+F 0 "#PWR01" H 850 7000 50  0001 C CNN
+F 1 "GND" H 855 7077 50  0000 C CNN
+F 2 "" H 850 7250 50  0001 C CNN
+F 3 "" H 850 7250 50  0001 C CNN
+	1    850  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5DB5C4EC
+P 1200 7000
+F 0 "H4" V 1154 7150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1245 7150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1200 7000 50  0001 C CNN
+F 3 "~" H 1200 7000 50  0001 C CNN
+	1    1200 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5DB5C32E
+P 1200 6800
+F 0 "H3" V 1154 6950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1245 6950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1200 6800 50  0001 C CNN
+F 3 "~" H 1200 6800 50  0001 C CNN
+	1    1200 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DB5C183
+P 1200 6600
+F 0 "H2" V 1154 6750 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1245 6750 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1200 6600 50  0001 C CNN
+F 3 "~" H 1200 6600 50  0001 C CNN
+	1    1200 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DB5BECF
+P 1200 6400
+F 0 "H1" V 1154 6550 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1245 6550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 1200 6400 50  0001 C CNN
+F 3 "~" H 1200 6400 50  0001 C CNN
+	1    1200 6400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

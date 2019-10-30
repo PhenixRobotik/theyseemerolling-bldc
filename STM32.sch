@@ -107,7 +107,7 @@ U 1 1 5DBCECD8
 P 3150 2050
 F 0 "R5" H 3220 2096 50  0000 L CNN
 F 1 "10k" H 3220 2005 50  0000 L CNN
-F 2 "" V 3080 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3080 2050 50  0001 C CNN
 F 3 "~" H 3150 2050 50  0001 C CNN
 	1    3150 2050
 	1    0    0    -1  
@@ -130,7 +130,7 @@ P 2350 3200
 F 0 "Q4" H 2556 3246 50  0000 L CNN
 F 1 "BSS138" H 2556 3155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 3125 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2350 3200 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2350 3200 50  0001 L CNN
 	1    2350 3200
 	1    0    0    -1  
 $EndComp
@@ -141,7 +141,7 @@ P 1500 2600
 F 0 "Q1" H 1706 2646 50  0000 L CNN
 F 1 "BSS138" H 1706 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1700 2525 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1500 2600 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1500 2600 50  0001 L CNN
 	1    1500 2600
 	1    0    0    -1  
 $EndComp
@@ -151,7 +151,7 @@ U 1 1 5DBE8F63
 P 1850 2050
 F 0 "R3" H 1920 2096 50  0000 L CNN
 F 1 "10k" H 1920 2005 50  0000 L CNN
-F 2 "" V 1780 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1780 2050 50  0001 C CNN
 F 3 "~" H 1850 2050 50  0001 C CNN
 	1    1850 2050
 	1    0    0    -1  
@@ -163,7 +163,7 @@ P 2350 2200
 F 0 "Q3" H 2556 2246 50  0000 L CNN
 F 1 "BSS138" H 2556 2155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 2125 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2350 2200 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2350 2200 50  0001 L CNN
 	1    2350 2200
 	1    0    0    -1  
 $EndComp
@@ -219,7 +219,7 @@ U 1 1 5DC09C16
 P 1150 3250
 F 0 "R2" H 1220 3296 50  0000 L CNN
 F 1 "10k" H 1220 3205 50  0000 L CNN
-F 2 "" V 1080 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1080 3250 50  0001 C CNN
 F 3 "~" H 1150 3250 50  0001 C CNN
 	1    1150 3250
 	1    0    0    -1  
@@ -251,7 +251,7 @@ P 1500 3400
 F 0 "Q2" H 1706 3446 50  0000 L CNN
 F 1 "BSS138" H 1706 3355 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1700 3325 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 1500 3400 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1500 3400 50  0001 L CNN
 	1    1500 3400
 	1    0    0    -1  
 $EndComp
@@ -274,7 +274,7 @@ U 1 1 5DC4DF28
 P 1950 3050
 F 0 "R4" H 2020 3096 50  0000 L CNN
 F 1 "10k" H 2020 3005 50  0000 L CNN
-F 2 "" V 1880 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 3050 50  0001 C CNN
 F 3 "~" H 1950 3050 50  0001 C CNN
 	1    1950 3050
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 5DC55811
 P 1150 2450
 F 0 "R1" H 1220 2496 50  0000 L CNN
 F 1 "10k" H 1220 2405 50  0000 L CNN
-F 2 "" V 1080 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1080 2450 50  0001 C CNN
 F 3 "~" H 1150 2450 50  0001 C CNN
 	1    1150 2450
 	1    0    0    -1  
