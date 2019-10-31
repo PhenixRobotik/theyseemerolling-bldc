@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:theyseemerolling-bldc-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -117,9 +118,6 @@ Wire Wire Line
 	2200 4300 2000 4300
 Wire Wire Line
 	2200 4400 2000 4400
-NoConn ~ 2250 4200
-Wire Wire Line
-	2250 4200 2000 4200
 Text GLabel 2250 4950 2    50   Input ~ 0
 Vcc_1
 Text GLabel 2250 5050 2    50   Input ~ 0
