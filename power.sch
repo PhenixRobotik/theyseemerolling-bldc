@@ -20,7 +20,7 @@ U 1 1 5DC8DC86
 P 1900 2450
 F 0 "J3" H 1818 2125 50  0000 C CNN
 F 1 "Power_1" H 1818 2216 50  0000 C CNN
-F 2 "" H 1900 2450 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 1900 2450 50  0001 C CNN
 F 3 "~" H 1900 2450 50  0001 C CNN
 	1    1900 2450
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 5DC94EA5
 P 2000 4450
 F 0 "J4" H 1918 4125 50  0000 C CNN
 F 1 "Power_2" H 1918 4216 50  0000 C CNN
-F 2 "" H 2000 4450 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 2000 4450 50  0001 C CNN
 F 3 "~" H 2000 4450 50  0001 C CNN
 	1    2000 4450
 	-1   0    0    1   
@@ -611,7 +611,7 @@ U 1 1 5DB87BCA
 P 9850 1900
 F 0 "JP3" V 9896 2002 50  0000 L CNN
 F 1 "Jumper_NC_Dual" V 9805 2002 50  0000 L CNN
-F 2 "" H 9850 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9850 1900 50  0001 C CNN
 F 3 "~" H 9850 1900 50  0001 C CNN
 	1    9850 1900
 	0    -1   -1   0   

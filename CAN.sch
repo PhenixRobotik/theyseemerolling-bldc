@@ -31,7 +31,7 @@ U 1 1 5DC4A3DF
 P 5100 1900
 F 0 "J6" H 5250 2200 50  0000 L CNN
 F 1 "CAN_conn" H 4850 2200 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 5100 1550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5100 1550 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 5400 1900 50  0001 C CNN
 	1    5100 1900
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5DC4A994
 P 5900 1900
 F 0 "J7" H 6050 2200 50  0000 L CNN
 F 1 "CAN_conn" H 5650 2200 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 5900 1550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5900 1550 50  0001 C CNN
 F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 6200 1900 50  0001 C CNN
 	1    5900 1900
 	1    0    0    -1  
